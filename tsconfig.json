@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "declarationDir": "types",
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "removeComments": true,
+    "listEmittedFiles": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "paths": {
+      "src/*": ["src/*"],
+      "test/*": ["test/*"]
+    }
+  }
+}
